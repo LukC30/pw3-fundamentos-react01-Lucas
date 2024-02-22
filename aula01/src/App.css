@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -28,16 +26,17 @@
   color: #61dafb;
 }
 
-.CardBook{
-  padding: 5px;
-  margin: auto;
-  align-items: center;
+.cardBook{
   margin-top: 10px;
-  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: beige;
+  display: flexbox;
+  width: 30%;
+  border-radius: 5%;
 }
 .descricao{
-  text-transform: capitalize;
-  margin: auto, 50px, auto, 50px;
+  text-align: left;
   
 }
 
