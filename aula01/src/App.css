@@ -1,4 +1,9 @@
+.App{
+  display: flex;
+  flex-wrap: wrap;
 
+
+}
 
 .App-logo {
   height: 40vmin;
@@ -30,10 +35,13 @@
   margin-top: 10px;
   flex-direction: row;
   justify-content: center;
-  background-color: beige;
+  background-color: rgb(221, 221, 34);
   display: flexbox;
-  width: 30%;
-  border-radius: 5%;
+  width: 15%;
+  margin-right: 3px;
+  border-radius: 2%;
+  font-size: small;
+
 }
 .descricao{
   text-align: left;
