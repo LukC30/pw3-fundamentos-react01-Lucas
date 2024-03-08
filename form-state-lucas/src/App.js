@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 
@@ -26,7 +25,6 @@ function App() {
           value={nome}
           onChange={(event)=>{setNome(event.target.value)}}
         />
-
         <input
           type='text'
           placeholder='DIGITE SEU EMAIL'
@@ -34,7 +32,6 @@ function App() {
           value={email}
           onChange={(event)=>{setEmail(event.target.value)}}
         />
-
         <input
           type='password'
           placeholder='DIGITE SUA SENHA'
